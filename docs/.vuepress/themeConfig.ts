@@ -79,9 +79,9 @@ export default defineThemeConfig({
 
     // 全局查找
     docsearch: {
-      appId: "VXIEHELDL1",
-      apiKey: "595796f71b6ba14326719682c3738c0c",
-      indexName: "vuepress-theme-hope-v2",
+      appId: "GA55PCZ62U",
+      apiKey: "969d8ebeb7ebd945f8e5c6f45fc02c23",
+      indexName: "afterward",
       locales: {
         "/": {
           placeholder: "搜索文档",
@@ -126,7 +126,6 @@ export default defineThemeConfig({
         },
       },
     },
-
 
     // 你也可以使用 Waline
     comment: {

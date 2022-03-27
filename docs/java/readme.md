@@ -19,9 +19,4 @@ category: 使用指南
         <img src="https://img.shields.io/github/forks/Snailclimb/JavaGuide" alt="forks" />
         <img src="https://img.shields.io/github/issues/Snailclimb/JavaGuide" alt="issues" />
     </p>
-    <p>
-        <a href="https://sourl.cn/v9dbdC">
-            <img src="../../media/sponsor/知识星球.png" style="margin: 0 auto; width: 850px;" />
-        </a>
-    </p>
 </div>
