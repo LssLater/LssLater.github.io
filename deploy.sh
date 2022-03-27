@@ -4,7 +4,7 @@
 set -e
 
 # 生成静态文件
-# npm run vite-build
+npm run vite-build
 
 # 进入生成的文件夹
 cd dist
@@ -22,7 +22,7 @@ else
 fi
 git init
 git add -A
-git commit -m "v2.0.0测试版"
+git commit -m "v2.0.1"
 git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
 
 # deploy to coding pages
@@ -40,9 +40,9 @@ git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
 
 # cd -
 # rm -rf dist
-git init
-git add -A
-git commit -m "${msg}"
-git push -f $githubUrl master:main # 推送到github gh-pages分支
+# git init
+# git add -A
+# git commit -m "${msg}"
+# git push -f $githubUrl master:main # 推送到github gh-pages分支
 
 
