@@ -1,0 +1,15 @@
+{
+  "name": "vuepress-theme-hope-template",
+  "version": "2.0.0",
+  "description": "A project of vuepress-theme-hope",
+  "license": "MIT",
+  "scripts": {
+    "docs:build": "vuepress build uu",
+    "docs:clean-dev": "vuepress dev uu --clean-cache",
+    "docs:dev": "vuepress dev uu"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.36",
+    "vuepress-theme-hope": "^2.0.0-beta.28"
+  }
+}
