@@ -42,7 +42,7 @@ fi
 # rm -rf dist
 git init
 git add -A
-git commit -m "doc 2.1"
+git commit -m "集成docsearch"
 git push -f $githubUrl master:main # 推送到github gh-pages分支
 
 

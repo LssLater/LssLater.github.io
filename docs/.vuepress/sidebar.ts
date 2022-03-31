@@ -58,6 +58,13 @@ export default defineSidebarConfig({
   // 必须放在最后面
   "/": [
     {
+      text: "Java知识点汇总",
+      prefix: "baguwen/java-interview",
+      collapsable: false,
+      children: ["java-interview-one"],
+    },
+
+    {
       text: "Java",
       icon: "java",
       prefix: "java/",

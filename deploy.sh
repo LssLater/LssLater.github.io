@@ -22,7 +22,7 @@ else
 fi
 git init
 git add -A
-git commit -m "v2.0.1"
+git commit -m "集成docsearch"
 git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
 
 # deploy to coding pages
