@@ -22,7 +22,7 @@ else
 fi
 git init
 git add -A
-git commit -m "主页修改"
+git commit -m "第一章整理完"
 git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
 
 
