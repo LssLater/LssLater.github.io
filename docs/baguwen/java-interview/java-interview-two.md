@@ -3169,7 +3169,7 @@ public class SerialNum {
 
 + 经典的另外一个例子：
 
-```java
+​```java
 private static final ThreadLocal threadSession = new ThreadLocal();
 
 public static Session getSession() throws InfrastructureException {
@@ -3184,43 +3184,7 @@ public static Session getSession() throws InfrastructureException {
     }
     return s;
 }
-
-        @pdai: 代码已经复制到剪贴板
-
 ````
-
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
 
 - 看看阿里巴巴 java 开发手册中推荐的 ThreadLocal 的用法:
 
@@ -3236,9 +3200,6 @@ public class DateUtils {
         }
     };
 }
-
-        @pdai: 代码已经复制到剪贴板
-
 ```
 
 然后我们再要用到 DateFormat 对象的地方，这样调用：
